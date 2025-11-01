@@ -60,9 +60,10 @@ set showcmd                 " Show partial commands
 
 " Color scheme
 set background=dark
-colorscheme desert          " Default to desert (gruvbox available after :PlugInstall)
-" Uncomment after installing plugins:
-" colorscheme gruvbox
+set termguicolors           " Enable true color support
+let g:gruvbox_contrast_dark = 'medium'
+let g:gruvbox_italic = 1
+colorscheme gruvbox
 
 " Indentation
 set autoindent
