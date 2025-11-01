@@ -64,3 +64,34 @@ multiplier = 3
 
 [selection]
 save_to_clipboard = true
+
+# macOS-style keyboard shortcuts
+[[keyboard.bindings]]
+key = "Left"
+mods = "Command"
+chars = "\x01"  # Ctrl+A (beginning of line)
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Command"
+chars = "\x05"  # Ctrl+E (end of line)
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\x1bb"  # Alt+B (back one word)
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\x1bf"  # Alt+F (forward one word)
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Command"
+chars = "\x15"  # Ctrl+U (delete to beginning of line)
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Alt"
+chars = "\x1b\x7f"  # Alt+Backspace (delete word)
